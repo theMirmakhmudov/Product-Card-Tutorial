@@ -7,146 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <!-- <link rel="stylesheet" href="style.css"> -->
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
-.quantity-control {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    visibility: hidden;
-}
-
-.quantity-control button {
-    width: 30px;
-    height: 30px;
-    text-align: center;
-}
-
-.quantity-control input {
-    width: 50px;
-    text-align: center;
-}
-
-.total-cost {
-    position: fixed;
-    bottom: 20px; /* pastga masofa */
-    right: 20px; /* o'ngga masofa */
-    background: #343a40;
-    color: #fff;
-    padding: 8px 15px; /* paddingni o'zgartirdim */
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    z-index: 1050;
-    font-size: 16px; /* matn o'lchamini o'zgartirdim */
-}
-
-.selected-products {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1000;
-    padding: 20px;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    display: none;
-    width: 80%;
-    max-width: 600px;
-    font-size: 14px; /* matn o'lchamini o'zgartirdim */
-}
-
-.selected-products ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.selected-products li {
-    margin-bottom: 10px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #f8f9fa;
-    font-size: 14px; /* matn o'lchamini o'zgartirdim */
-}
-
-.card-body h3 {
-    color: #28a745;
-    font-size: 18px; /* matn o'lchamini o'zgartirdim */
-}
-
-
-.card-body a:hover {
-    color: #0056b3;
-    text-decoration: none;
-}
-.card-body .font-weight-semibold {
-    font-size: 18px;
-}
-
-.card-body a {
-    font-size: 14px;
-    font-weight: bold;
-}
-
-.card-body p {
-    font-size: 18px;
-    font-weight: bold;
-    font-family: "DM Sans", sans-serif;
-}
-
-.navbar-brand p {
-    margin: 0;
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.navbar-nav {
-    text-align: center;
-}
-
-.navbar-nav .nav-item {
-    margin: 0 10px;
-}
-
-.navbar-nav .nav-link {
-    font-size: 18px;
-    color: #fff;
-}
-
-.navbar-nav .nav-link:hover {
-    color: #ffc107;
-}
-
-@media (max-width: 768px) {
-    .navbar-collapse {
-        justify-content: flex-start;
-    }
-
-    .navbar-nav {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .navbar-nav .nav-item {
-        margin: 10px 0;
-    }
-
-    
-    
-}
-
-@media (max-width: 400px) {
-    .total-cost {
-        position: fixed;
-        bottom: 50px; 
-        right: 10px; 
-    }
-}
-
-    </style>
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 
 </head>
@@ -155,7 +16,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <p>Alfinura's Wedding Shop</p>
+                <p>Example Product Card</p>
             </a>
             <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
                 <ul class="navbar-nav">
@@ -179,16 +40,16 @@
                 <div class="card">
                     <div class="card-body text-center">
                         <div class="card-img-actions">
-                            <img src="https://i.ebayimg.com/images/g/ZrIAAOSwHFZiU9Js/s-l400.jpg"
+                            <img src="https://st2.depositphotos.com/3591429/5245/i/450/depositphotos_52457585-stock-photo-people-discussing-about-leadership.jpg"
                                 class="card-img img-fluid" alt="">
                         </div>
                     </div>
                     <div class="card-body bg-light text-center">
                         <div class="mb-2">
                             <h6 class="font-weight-semibold mb-2">
-                                <p href="#" class="text-default mb-2" data-abc="true">Wedding Dress for Wedding day</p>
+                                <p href="#" class="text-default mb-2" data-abc="true">Product Name</p>
                             </h6>
-                            <a href="#" class="text-muted" data-abc="true">Wedding & Dress</a>
+                            <a href="#" class="text-muted" data-abc="true">Example & Topic</a>
                         </div>
                         <h3 class="mb-0 font-weight-semibold" data-price="250.99">$250.99</h3>
                         <div class="quantity-control mb-2" id="quantity-control-0">
@@ -205,16 +66,16 @@
                 <div class="card">
                     <div class="card-body text-center">
                         <div class="card-img-actions">
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3CpXasZ6FcDv7hqwUSbz8wcz1nL2CP5tE6v2yUqNoNvkITOjnz03nyN3SIKcsDr-oSXE&usqp=CAU"
+                            <img src="https://st2.depositphotos.com/3591429/5245/i/450/depositphotos_52457585-stock-photo-people-discussing-about-leadership.jpg"
                                 class="card-img img-fluid" alt="">
                         </div>
                     </div>
                     <div class="card-body bg-light text-center">
                         <div class="mb-2">
                             <h6 class="font-weight-semibold mb-2">
-                                <p href="#" class="text-default mb-2" data-abc="true">For Wedding Day Dress</p>
+                                <p href="#" class="text-default mb-2" data-abc="true">Product Name</p>
                             </h6>
-                            <a href="#" class="text-muted" data-abc="true">Wedding & Dress</a>
+                            <a href="#" class="text-muted" data-abc="true">Example & Topic</a>
                         </div>
                         <h3 class="mb-0 font-weight-semibold" data-price="399.99">$399.99</h3>
                         <div class="quantity-control mb-2" id="quantity-control-1">
@@ -224,6 +85,32 @@
                         </div>
                         <button type="submit" class="btn btn-outline-success" id="add-to-cart-1"
                             onclick="toggleCart(1)">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mt-2">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <div class="card-img-actions">
+                            <img src="https://st2.depositphotos.com/3591429/5245/i/450/depositphotos_52457585-stock-photo-people-discussing-about-leadership.jpg"
+                                class="card-img img-fluid" alt="">
+                        </div>
+                    </div>
+                    <div class="card-body bg-light text-center">
+                        <div class="mb-2">
+                            <h6 class="font-weight-semibold mb-2">
+                                <p href="#" class="text-default mb-2" data-abc="true">Product Name</p>
+                            </h6>
+                            <a href="#" class="text-muted" data-abc="true">Example & Topic</a>
+                        </div>
+                        <h3 class="mb-0 font-weight-semibold" data-price="399.99">$399.99</h3>
+                        <div class="quantity-control mb-2" id="quantity-control-2">
+                            <button class="btn btn-outline-secondary btn-sm" onclick="decreaseQuantity(2)">-</button>
+                            <input type="text" id="quantity-2" value="0" readonly>
+                            <button class="btn btn-outline-secondary btn-sm" onclick="increaseQuantity(2)">+</button>
+                        </div>
+                        <button type="submit" class="btn btn-outline-success" id="add-to-cart-2"
+                            onclick="toggleCart(2)">Add to cart</button>
                     </div>
                 </div>
             </div>
@@ -240,94 +127,7 @@
 
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script>
-        function updateTotalCost() {
-    let totalCost = 0;
-    document.querySelectorAll('.card').forEach((card, index) => {
-        const price = parseFloat(card.querySelector('[data-price]').getAttribute('data-price'));
-        const quantity = parseInt(document.getElementById('quantity-' + index).value);
-        totalCost += price * quantity;
-    });
-    document.getElementById('total-cost').innerText = totalCost.toFixed(2);
-}
-
-function increaseQuantity(index) {
-    let quantityInput = document.getElementById('quantity-' + index);
-    let currentQuantity = parseInt(quantityInput.value);
-    quantityInput.value = currentQuantity + 1;
-    updateTotalCost();
-    toggleAddToCartButton(index);
-}
-
-function decreaseQuantity(index) {
-    let quantityInput = document.getElementById('quantity-' + index);
-    let currentQuantity = parseInt(quantityInput.value);
-    if (currentQuantity > 0) {
-        quantityInput.value = currentQuantity - 1;
-    }
-    updateTotalCost();
-    toggleAddToCartButton(index);
-}
-
-function toggleAddToCartButton(index) {
-    let quantityInput = document.getElementById('quantity-' + index);
-    let addToCartButton = document.getElementById('add-to-cart-' + index);
-    if (parseInt(quantityInput.value) === 0) {
-        addToCartButton.innerText = "Add to cart";
-        document.getElementById('quantity-control-' + index).style.visibility = 'hidden';
-    } else {
-        addToCartButton.innerText = "In cart (" + quantityInput.value + ")";
-        document.getElementById('quantity-control-' + index).style.visibility = 'visible';
-    }
-}
-
-function toggleCart(index) {
-    let quantityInput = document.getElementById('quantity-' + index);
-    let currentQuantity = parseInt(quantityInput.value);
-    if (currentQuantity === 0) {
-        quantityInput.value = 1;
-        document.getElementById('quantity-control-' + index).style.visibility = 'visible';
-    } else {
-        quantityInput.value = 0;
-        document.getElementById('quantity-control-' + index).style.visibility = 'hidden';
-    }
-    updateTotalCost();
-    toggleAdd
-    toggleAddToCartButton(index);
-}
-
-function showSelectedProducts() {
-    const selectedProductsList = document.getElementById('selected-products-list');
-    selectedProductsList.innerHTML = '';
-    document.querySelectorAll('.card').forEach((card, index) => {
-        const productName = card.querySelector('h6').innerText;
-        const price = parseFloat(card.querySelector('[data-price]').getAttribute('data-price'));
-        const quantity = parseInt(document.getElementById('quantity-' + index).value);
-        if (quantity > 0) {
-            const listItem = document.createElement('li');
-            listItem.classList.add('mb-3'); // Bootstrap margin
-            listItem.innerHTML = `
-                <div class="row">
-                    <div class="col">${productName}</div>
-                    <div class="col text-center">Quantity: ${quantity}</div>
-                    <div class="col text-right">Total: $${(price * quantity).toFixed(2)}</div>
-                </div>`;
-            selectedProductsList.appendChild(listItem);
-        }
-    });
-    const selectedProductsSection = document.getElementById('selected-products-section');
-    selectedProductsSection.style.display = 'block'; // Show selected products section
-    selectedProductsSection.scrollIntoView({ behavior: 'smooth' }); // Scroll to selected products section
-}
-
-function hideSelectedProducts() {
-    const selectedProductsSection = document.getElementById('selected-products-section');
-    selectedProductsSection.style.display = 'none'; // Hide selected products section
-}
-
-// Initialize total cost on page load
-document.addEventListener('DOMContentLoaded', updateTotalCost);
-    </script>
+    <script src="script.js"></script>
 </body>
 
 </html>
